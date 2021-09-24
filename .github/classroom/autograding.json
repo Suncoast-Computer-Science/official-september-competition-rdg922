@@ -1,0 +1,224 @@
+{
+  "tests": [
+    {
+      "name": "Data Length Test Case 1",
+      "setup": "",
+      "run": "python3 data.py",
+      "input": "392",
+      "output": "4",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Data Length Test Case 2",
+      "setup": "",
+      "run": "python3 data.py",
+      "input": "131345",
+      "output": "6",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Data Length Test Case 3",
+      "setup": "",
+      "run": "python3 data.py",
+      "input": "94",
+      "output": "3",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Crossword Test Case 1",
+      "setup": "",
+      "run": "python3 crossword.py",
+      "input": "value\r\nde\r\n7",
+      "output": "devalue",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Crossword Test Case 2",
+      "setup": "",
+      "run": "python3 crossword.py",
+      "input": "dis\r\nappear\r\n8",
+      "output": "False",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Crossword Test Case 3",
+      "setup": "",
+      "run": "python3 crossword.py",
+      "input": "auto\r\npilot\r\n7",
+      "output": "autopilot",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Lazer Tag Test Case 1",
+      "setup": "",
+      "run": "python3 lazer.py",
+      "input": "8\r\n48\r\n53\r\n24\r\n36\r\n62\r\n23\r\n45\r\n57",
+      "output": "[60, 85, 101, 102]",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Lazer Tag Test Case 2",
+      "setup": "",
+      "run": "python3 lazer.py",
+      "input": "20\r\n3412\r\n5234\r\n1235\r\n356\r\n6536\r\n4242\r\n7654\r\n2345\r\n2457\r\n7654\r\n8353\r\n2435\r\n1345\r\n6246\r\n7464\r\n2435\r\n7646\r\n2345\r\n8476\r\n4652",
+      "output": "[1591, 7591, 8646, 9899, 9991, 9999, 10111, 10778, 10788, 13128]",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Diamonds Test Case 1",
+      "setup": "",
+      "run": "python3 diamonds.py",
+      "input": "7",
+      "output": "*\r\n \r\n *\r\n***\r\n *\r\n \r\n  *\r\n ***\r\n*****\r\n ***\r\n  *\r\n \r\n   *\r\n  ***\r\n *****\r\n*******\r\n *****\r\n  ***\r\n   *\r\n \r\n  *\r\n ***\r\n*****\r\n ***\r\n  *\r\n \r\n *\r\n***\r\n *\r\n \r\n*",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Diamonds Test Case 2",
+      "setup": "",
+      "run": "python3 diamonds.py",
+      "input": "3",
+      "output": "*\r\n \r\n *\r\n***\r\n *\r\n \r\n*",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Diamonds Test Case 3",
+      "setup": "",
+      "run": "python3 diamonds.py",
+      "input": "21",
+      "output": "*\r\n \r\n *\r\n***\r\n *\r\n \r\n  *\r\n ***\r\n*****\r\n ***\r\n  *\r\n \r\n   *\r\n  ***\r\n *****\r\n*******\r\n *****\r\n  ***\r\n   *\r\n \r\n    *\r\n   ***\r\n  *****\r\n *******\r\n*********\r\n *******\r\n  *****\r\n   ***\r\n    *\r\n \r\n     *\r\n    ***\r\n   *****\r\n  *******\r\n *********\r\n***********\r\n *********\r\n  *******\r\n   *****\r\n    ***\r\n     *\r\n \r\n      *\r\n     ***\r\n    *****\r\n   *******\r\n  *********\r\n ***********\r\n*************\r\n ***********\r\n  *********\r\n   *******\r\n    *****\r\n     ***\r\n      *\r\n \r\n       *\r\n      ***\r\n     *****\r\n    *******\r\n   *********\r\n  ***********\r\n *************\r\n***************\r\n *************\r\n  ***********\r\n   *********\r\n    *******\r\n     *****\r\n      ***\r\n       *\r\n \r\n        *\r\n       ***\r\n      *****\r\n     *******\r\n    *********\r\n   ***********\r\n  *************\r\n ***************\r\n*****************\r\n ***************\r\n  *************\r\n   ***********\r\n    *********\r\n     *******\r\n      *****\r\n       ***\r\n        *\r\n \r\n         *\r\n        ***\r\n       *****\r\n      *******\r\n     *********\r\n    ***********\r\n   *************\r\n  ***************\r\n *****************\r\n*******************\r\n *****************\r\n  ***************\r\n   *************\r\n    ***********\r\n     *********\r\n      *******\r\n       *****\r\n        ***\r\n         *\r\n \r\n          *\r\n         ***\r\n        *****\r\n       *******\r\n      *********\r\n     ***********\r\n    *************\r\n   ***************\r\n  *****************\r\n *******************\r\n*********************\r\n *******************\r\n  *****************\r\n   ***************\r\n    *************\r\n     ***********\r\n      *********\r\n       *******\r\n        *****\r\n         ***\r\n          *\r\n \r\n         *\r\n        ***\r\n       *****\r\n      *******\r\n     *********\r\n    ***********\r\n   *************\r\n  ***************\r\n *****************\r\n*******************\r\n *****************\r\n  ***************\r\n   *************\r\n    ***********\r\n     *********\r\n      *******\r\n       *****\r\n        ***\r\n         *\r\n \r\n        *\r\n       ***\r\n      *****\r\n     *******\r\n    *********\r\n   ***********\r\n  *************\r\n ***************\r\n*****************\r\n ***************\r\n  *************\r\n   ***********\r\n    *********\r\n     *******\r\n      *****\r\n       ***\r\n        *\r\n \r\n       *\r\n      ***\r\n     *****\r\n    *******\r\n   *********\r\n  ***********\r\n *************\r\n***************\r\n *************\r\n  ***********\r\n   *********\r\n    *******\r\n     *****\r\n      ***\r\n       *\r\n \r\n      *\r\n     ***\r\n    *****\r\n   *******\r\n  *********\r\n ***********\r\n*************\r\n ***********\r\n  *********\r\n   *******\r\n    *****\r\n     ***\r\n      *\r\n \r\n     *\r\n    ***\r\n   *****\r\n  *******\r\n *********\r\n***********\r\n *********\r\n  *******\r\n   *****\r\n    ***\r\n     *\r\n \r\n    *\r\n   ***\r\n  *****\r\n *******\r\n*********\r\n *******\r\n  *****\r\n   ***\r\n    *\r\n \r\n   *\r\n  ***\r\n *****\r\n*******\r\n *****\r\n  ***\r\n   *\r\n \r\n  *\r\n ***\r\n*****\r\n ***\r\n  *\r\n \r\n *\r\n***\r\n *\r\n \r\n*",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Goodbye Test Case 1",
+      "setup": "",
+      "run": "python3 goodbye.py",
+      "input": "Bob",
+      "output": "Goodbye Bob!",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Goodbye Test Case 2",
+      "setup": "",
+      "run": "python3 goodbye.py",
+      "input": "Rohit",
+      "output": "Goodbye Rohit!",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Numbers Test Case 1",
+      "setup": "",
+      "run": "python3 numbers.py",
+      "input": "110",
+      "output": "True",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Numbers Test Case 2",
+      "setup": "",
+      "run": "python3 numbers.py",
+      "input": "211",
+      "output": "False",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Numbers Test Case 3",
+      "setup": "",
+      "run": "python3 numbers.py",
+      "input": "89",
+      "output": "False",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Cookie Test Case 1",
+      "setup": "",
+      "run": "python3 cookie.py",
+      "input": "1\r\n2",
+      "output": "3",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Cookie Test Case 3",
+      "setup": "",
+      "run": "python3 cookie.py",
+      "input": "5\r\n7",
+      "output": "12",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Swapping Test Case 1",
+      "setup": "",
+      "run": "python3 swapping.py",
+      "input": "3\r\nboR\r\ntohiR\r\nyancN",
+      "output": "Rob\r\nRohit\r\nNancy",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Swapping Test Case 2",
+      "setup": "",
+      "run": "python3 swapping.py",
+      "input": "2\r\nBruh\r\neobbir",
+      "output": "hruB\r\nrobbie",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Parenthesis Test Case 1",
+      "setup": "",
+      "run": "python3 parenthesis.py",
+      "input": "4\r\n()\r\n(()())\r\n())(()\r\n)(",
+      "output": "True\r\nTrue\r\nFalse\r\nFalse",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Parenthesis Test Case 2",
+      "setup": "",
+      "run": "python3 parenthesis.py",
+      "input": "4\r\n(()())\r\n())(\r\n(()\r\n())(",
+      "output": "True\r\nFalse\r\nTrue\r\nFalse",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
